@@ -705,7 +705,7 @@
       `📧 Email: ${email}\n\n` +
       `💬 Message:\n${message}`;
 
-    // === KIRIM KE TELEGRAM ===
+    
     fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
       method: "POST",
       headers: {
